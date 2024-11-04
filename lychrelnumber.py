@@ -8,7 +8,7 @@ def palindrome(nb):
             nb (int) : a number given by the user
             
         Returns:
-            return True if the number is a palindrome, False if it isn't
+           bool : return True if the number is a palindrome, False if it isn't
     """
     
     nb_mirr = str(nb)[::-1] # create nb_mirr variable, the mirror number of nb
@@ -25,7 +25,7 @@ def nb_mirroir(nb):
             nb (int) : a number given by the user
         
         Returns:
-            return the mirror number of nb
+            int : return the mirror number of nb
     """
     
     return int(str(nb)[::-1]) # return the mirror number of nb
@@ -39,7 +39,7 @@ def nb_lychrel(nb):
             nb (int) : a number given by the user
         
         Returns:
-            return True if the number given by the user is a lychrel number, False if it isn't
+            bool : return True if the number given by the user is a lychrel number, False if it isn't
     """
     
     if palindrome(nb): # call function palindrome() to verify if nb is already a palindrome
