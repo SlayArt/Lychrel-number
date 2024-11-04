@@ -5,7 +5,7 @@ def palindrome(nb):
         function to verify if a number is a palindrome or not
         
         Args:
-            nb : a number given by the user
+            nb (int) : a number given by the user
             
         Returns:
             return True if the number is a palindrome, False if it isn't
@@ -22,7 +22,7 @@ def nb_mirroir(nb):
         function to get the mirror number of a number
         
         Args:
-            nb : a number given by the user
+            nb (int) : a number given by the user
         
         Returns:
             return the mirror number of nb
@@ -36,7 +36,7 @@ def nb_lychrel(nb):
         The main function, verify with the previous function if a number is a lychrel number
         
         Args:
-            nb : a number given by the user
+            nb (int) : a number given by the user
         
         Returns:
             return True if the number given by the user is a lychrel number, False if it isn't
