@@ -1,11 +1,16 @@
-'''
-checks if the number given by the user is a lychrel number after 300 iterations max
-:cu: the number the user wants to test
-:param: the user number
-'''
 
 # plaindrome function to verify if a number is a palindrome with nb as parameter 
 def palindrome(nb):
+    """
+        function to verify if a number is a palindrome or not
+        
+        Args:
+            nb : a number given by the user
+            
+        Returns:
+            return True if the number is a palindrome, False if it isn't
+    """
+    
     nb_mirr = str(nb)[::-1] # create nb_mirr variable, the mirror number of nb
     if str(nb) == nb_mirr: # verify if nb is already a palindrome
         return True # if the function return True
@@ -13,10 +18,30 @@ def palindrome(nb):
 
 # nb_mirror function to return the mirror number of nb (parameter)
 def nb_mirroir(nb):
+    """
+        function to get the mirror number of a number
+        
+        Args:
+            nb : a number given by the user
+        
+        Returns:
+            return the mirror number of nb
+    """
+    
     return int(str(nb)[::-1]) # return the mirror number of nb
 
 # main function, verify if nb (user number, parameter) is a lychrel number
 def nb_lychrel(nb):
+    """
+        The main function, verify with the previous function if a number is a lychrel number
+        
+        Args:
+            nb : a number given by the user
+        
+        Returns:
+            return True if the number given by the user is a lychrel number, False if it isn't
+    """
+    
     if palindrome(nb): # call function palindrome() to verify if nb is already a palindrome
         return nb # if it is function return nb
     else:
