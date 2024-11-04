@@ -57,3 +57,6 @@ def nb_lychrel(nb):
             
 nb_user = input("For what number do you wanna check if it is a lychrel number ? ") # ask a number to user
 print(nb_lychrel(int(nb_user))) # call the function and print the result
+
+# exemple of none lychrel number (300 iterations) : 196
+# exemple of lychrel number : 15
