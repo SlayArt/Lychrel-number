@@ -1,5 +1,5 @@
 
-# plaindrome function to verify if a number is a palindrome with nb as parameter 
+# palindrome function to verify if a number is a palindrome with nb as parameter 
 def palindrome(nb):
     """
         function to verify if a number is a palindrome or not
